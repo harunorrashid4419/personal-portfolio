@@ -10,15 +10,17 @@ body{
 .welcome-section span{
     color: #ffa500;
 }
-.welcome-section h2{
+.last-header{
     font-size: 19px;
     font-weight: 700;
     color:#000000;
 }
-.welcome-section p{
+.pragraph {
     font-size: 16px;
     font-weight: 400;
     color: #696969;
+    line-height: 24px;
+    max-width: 537px;
 }
 .button {
     color: #ffffff;
@@ -41,4 +43,57 @@ body{
 }
 img{
     width:90%;
+}
+
+
+
+
+.dream-big{
+    display: flex;
+    margin-top: 100px;
+    background-image:url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dream{
+    font-size: 40px;
+    font-weight: 700;
+    color: #000000;
+}
+
+
+
+
+.main-experinece{
+    display: flex;
+}
+.experience-section .box-shadow{
+    box-shadow: 5px 7px 40px grey;
+    padding: 0px 0px 60px 55px;
+    border-left: 7px solid #0000FF;
+}
+.experience-section .box-shadowes{
+    box-shadow: 5px 7px 40px grey;
+    padding: 0px 0px 60px 55px;
+    border-left: 7px solid #FF6347;
+}
+.main-experinece span{
+    color: #ffa500;
+}
+.experience-section{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-top: 80px;
+}
+
+
+
+
+socket p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #696969;
+    text-align: center;
+    padding-top: 150px;
 }
