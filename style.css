@@ -1,0 +1,44 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+}
+.top-header{
+    color:#000000;
+    font-size: 50px;
+    font-weight: 700;
+}
+.welcome-section span{
+    color: #ffa500;
+}
+.welcome-section h2{
+    font-size: 19px;
+    font-weight: 700;
+    color:#000000;
+}
+.welcome-section p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #696969;
+}
+.button {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    background: #FF6E50;
+    padding: 10px 40px;
+    border-radius: 5px;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    text-decoration: none;
+}
+.welcome-section{
+    display: flex;
+    background-image:url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.half-width{
+    width:50%;
+    margin-left: 6%;
+}
+img{
+    width:90%;
+}
